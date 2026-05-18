@@ -80,4 +80,5 @@ end)
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
-
+-- this is my (abhi_) keymap :
+vim.keymap.set("n", "<leader>q", "<cmd>bd<CR>", { desc = "Close buffer" })
